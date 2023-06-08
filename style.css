@@ -1,0 +1,40 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKbGMI4sdAv0yDURA3gq7E39iWV5dOAgoC2Q&usqp=CAU');
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    color: aliceblue;
+}
+
+canvas {
+    width: 100%;
+    background-color: rgba(107, 101, 101, 0.103);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+  
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+button{
+    color: rgba(255, 255, 255, 0.651);
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 20%;
+    border: 0cap;
+    border-style: none;
+    
+}
+#playButton,
+#stopButton {
+    margin: 0 10px;
+}
+#volumeSlider {
+    writing-mode: bt-lr; /* Mengubah arah tulisan menjadi dari bawah ke atas */
+    transform: rotate(180deg); /* Memutar elemen 180 derajat */
+  }
+  
